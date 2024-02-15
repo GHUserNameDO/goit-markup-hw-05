@@ -533,7 +533,6 @@ span.footer-logo-color {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  text-indent: 16px;
   color: #ffffff;
   background: #2e2f42;
   border: 1px solid #fff;
@@ -541,8 +540,10 @@ span.footer-logo-color {
   width: 264px;
   height: 40px;
   margin-right: 24px;
+  padding-left: 16px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   outline: none;
+  background-color: transparent;
 }
 
 .subscribe-input::placeholder {
